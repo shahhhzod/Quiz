@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Quiz App | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+   
+    <div class="start_btn"><button>Начать викторину</button></div>
+
+
+    <div class="info_box">
+        <div class="info-title"><span>Некоторые правила этой викторины</span></div>
+        <div class="info-list">
+            <div class="info">1. У вас будет всего <span>15 секунд</span> на каждый вопрос.</div>
+            <div class="info">2. Как только вы выберете свой ответ, его нельзя будет отменить.</div>
+            <div class="info">3. Вы не можете выбрать какой-либо вариант, когда время истечет.</div>
+            <div class="info">4. Вы не можете выйти из викторины во время игры.</div>
+            <div class="info">5. Вы получите очки на основе ваших правильных ответов.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Выход</button>
+            <button class="restart">Старт</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz app by @shahhhzod</div>
+            <div class="timer">
+                <div class="time_left_txt">Осталось времени</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+               
+            </div>
+            <div class="option_list">
+              
+            </div>
+        </section>
+
+     
+        <footer>
+            <div class="total_que">
+       
+            </div>
+            <button class="next_btn">Следующий вопрос</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Вы завершили викторину!</div>
+        <div class="score_text">
+
+        </div>
+        <div class="buttons">
+            <button class="restart">Повтор</button>
+            <button class="quit">Выйти</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+</html>
